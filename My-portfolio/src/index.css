@@ -14,7 +14,7 @@
   --color-dm-sec-text: #E5E2E1;
   --color-dm-pri-bg: #1C1B1B;
   --color-dm-sec-bg: #131313;
-  --color-dm-ter-bg: #0E0E0E; 
+  --color-dm-ter-bg: #0E0E0E;
 
   --color-base-light: #F8F9FA;
   --color-lm-primary: #2563EB;
@@ -28,13 +28,42 @@
 @layer base {
   body {
     font-family: var(--font-inter);
+    background-color: var(--color-pri-bg);
+    color: var(--color-pri-text);
   }
-
   h1, h2, h3, h4, h5 {
     font-family: var(--font-space);
   }
-
   a {
     font-family: var(--font-space);
   }
+}
+
+:root {
+  --color-base:var(--color-base-dark);
+  --color-primary: var(--color-dm-primary);
+  --color-pri-text: var(--color-dm-pri-text);
+  --color-sec-text: var(--color-dm-sec-text);
+  --color-pri-bg: var(--color-dm-pri-bg);
+  --color-sec-bg: var(--color-dm-sec-bg);
+  --color-ter-bg: var(--color-dm-ter-bg);
+}
+
+.dark {
+  --color-base: var(--color-base-light);
+  --color-primary: var(--color-lm-primary);
+  --color-pri-text: var(--color-lm-pri-text);
+  --color-sec-text: var(--color-lm-sec-text);
+  --color-pri-bg: var(--color-lm-pri-bg);
+  --color-sec-bg: var(--color-lm-sec-bg);
+  --color-ter-bg: var(--color-lm-ter-bg);
+}
+
+@keyframes spin-once {
+  0%   { transform: rotate(-90deg); opacity: 0; }
+  100% { transform: rotate(0deg);   opacity: 1; }
+}
+
+.animate-spin-once {
+  animation: spin-once 0.3s ease-out forwards;
 }
