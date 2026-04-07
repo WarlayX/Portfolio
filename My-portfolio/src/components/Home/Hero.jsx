@@ -1,7 +1,6 @@
 export default function Hero () {
   return(
-    <div>
-      
-    </div>
+    <section className='pt-5'>
+    </section>  
   );
 }
