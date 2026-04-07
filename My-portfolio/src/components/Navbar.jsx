@@ -65,8 +65,8 @@ export default function Navbar () {
 
       {/* Mobile sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-[75%] max-w-75 bg-(--color-sec-bg) z-50 flex flex-col px-8 py-10 gap-10 transition-transform duration-300 ease-in-out ${
-          menuOpen ? 'translate-x-0' : 'translate-x-full'
+        className={`fixed top-0 left-0 w-full bg-(--color-sec-bg) z-50 flex flex-col px-8 py-10 gap-10 transition-transform duration-300 ease-in-out ${
+        menuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
         {/* Close button */}
