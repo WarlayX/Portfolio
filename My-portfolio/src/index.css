@@ -30,6 +30,8 @@
     font-family: var(--font-inter);
     background-color: var(--color-pri-bg);
     color: var(--color-pri-text);
+    background-image: linear-gradient(rgba(186,204,176,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(186,204,176,0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
   }
   h1, h2, h3, h4, h5 {
     font-family: var(--font-space);
@@ -66,4 +68,12 @@
 
 .animate-spin-once {
   animation: spin-once 0.3s ease-out forwards;
+}
+
+.dark body {
+  background-image: linear-gradient(rgba(186,204,176,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(186,204,176,0.12) 1px, transparent 1px);
+}
+
+body {
+  background-image: linear-gradient(rgba(30,58,95,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(30,58,95,0.12) 1px, transparent 1px);
 }
