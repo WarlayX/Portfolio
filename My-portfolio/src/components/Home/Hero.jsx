@@ -4,9 +4,7 @@ import Resume from '../../../public/Adewole-Resume.pdf';
 export default function Hero () {
   return(
     <section className='pt-5'>
-
-      <div className='flex flex-col gap-6 sm:flex-row sm:max-w-325 sm:mx-auto sm:h-110 sm:items-center lg:h-150 '>
-      
+      <div className='flex flex-col gap-6 sm:flex-row sm:max-w-325 sm:mx-auto sm:h-110 sm:items-center lg:h-150 '>     
         <div className='sm:w-[30%] sm:self-start'>
           <img 
             src={HeroImg} 
@@ -14,7 +12,6 @@ export default function Hero () {
             className='object-cover w-30 h-30 rounded-[10px] sm:w-50 sm:h-50 lg:w-65 lg:h-65'
           />
         </div>
-
         <div className='flex flex-col gap-6 p-2.5 sm:w-[70%] sm:gap-10'>
           <h1 className='text-[30px] font-bold leading-tight sm:text-[40px] lg:text-[80px]'>
             <span className='text-(--color-primary)'>DIGITAL</span> <br/> FRONTIERS.
@@ -38,8 +35,6 @@ export default function Hero () {
             </a>
           </div>
         </div>
-
-
       </div>
     </section>  
   );
