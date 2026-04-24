@@ -22,7 +22,7 @@ export default function Navbar () {
   }, [isDark]);
 
   return (
-    <header className="relative">
+    <header className="fixed top-0 left-0 right-0 z-40 backdrop-blur-md bg-(--color-pri-bg)/60 border-b border-(--color-sec-bg) ">
       <nav className="flex items-center justify-between p-2.5 md:p-5">
 
         <h1 className="font-extrabold text-[20px] tracking-(-0.05em] leading-(1.10em) text-(--color-primary)">ADEWOLE_ODUTAYO</h1>
