@@ -5,22 +5,22 @@ export default function Hero () {
   return(
     <section className='pt-5'>
 
-      <div className='flex flex-col gap-6.25 md:flex-row md:max-w-325 md:mx-auto '>
+      <div className='flex flex-col gap-6 sm:flex-row sm:max-w-325 sm:mx-auto sm:h-110 sm:items-center lg:h-150 '>
       
-        <div className='md:w-[30%]'>
+        <div className='sm:w-[30%] sm:self-start'>
           <img 
             src={HeroImg} 
             alt="hero" 
-            className='object-cover w-30 h-30 rounded-[10px] md:w-50 md:h-50'
+            className='object-cover w-30 h-30 rounded-[10px] sm:w-50 sm:h-50 lg:w-65 lg:h-65'
           />
         </div>
 
-        <div className='flex flex-col gap-6 p-2.5 md:w-[70%] md:gap-10'>
-          <h1 className='text-[30px] font-bold leading-tight md:text-[50px]'>
+        <div className='flex flex-col gap-6 p-2.5 sm:w-[70%] sm:gap-10'>
+          <h1 className='text-[30px] font-bold leading-tight sm:text-[40px] lg:text-[80px]'>
             <span className='text-(--color-primary)'>DIGITAL</span> <br/> FRONTIERS.
           </h1>
 
-          <p className='text-[15px] md:text-[18px]'>Specializing in high-performance React JS ecosystems also using HTML, CSS, and JavaScript to bridge the gap between complex logic and elegant user interface design.</p>
+          <p className='text-[15px] sm:text-[18px] lg:text-[24px]'>Frontend Developer and Graphic Designer focused on building responsive, user-friendly web applications with React, while crafting visually engaging designs that enhance user experience.</p>
 
           <div className='flex'>
             <button 
