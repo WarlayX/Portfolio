@@ -18,7 +18,7 @@ export default function Hero () {
             <span className='text-(--color-primary)'>DIGITAL</span> <br/> FRONTIERS.
           </h1>
 
-          <p className='text-[15px] sm:text-[18px] lg:text-[24px]'>Frontend Developer and Graphic Designer focused on building responsive, user-friendly web applications with React, while crafting visually engaging designs that enhance user experience.</p>
+          <p className='text-[12px] sm:text-[15px] lg:text-[20px]'>Frontend Developer and Graphic Designer focused on building responsive, user-friendly web applications with React, while crafting visually engaging designs that enhance user experience.</p>
 
           <div className='flex'>
             <button 

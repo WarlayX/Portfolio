@@ -60,7 +60,7 @@ export default function Projects() {
 
         <div className="flex items-center gap-2 mb-10">
           <i className="bx bx-grid-alt text-[20px] sm:text-[30px] font-bold text-(--color-primary)"></i>
-          <h2 className="text-[20px] sm:text-[30px] font-bold text-(--color-primary) tracking-tight">
+          <h2 className="text-[20px] font-bold text-(--color-primary) tracking-tight">
             PROJECTS
           </h2>
         </div>

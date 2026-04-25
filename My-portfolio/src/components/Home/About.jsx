@@ -11,11 +11,11 @@ export default function About () {
         </div>
 
         <div className="flex flex-col gap-2.5 sm:w-[75%] sm:self-start sm:gap-10">
-          <p className='text-[15px] sm:text-[17px] lg:text-[24px]'>
+          <p className='text-[12px] sm:text-[15px] lg:text-[20px]'>
             I build clean, responsive and user-friendly websites. Core skills include HTML, CSS, JavaScript, React JS and Tailwind CSS. Also skilled in graphics design working with tools like CorelDraw, Photoshop and Adobe illustrator to complement my web projects.
           </p>
 
-          <p className='text-[15px] sm:text-[17px] lg:text-[24px]'>
+          <p className='text-[12px] sm:text-[15px] lg:text-[20px]'>
             Whenever I'm not coding or designing, I enjoy playing chess, listening to music, watching movies, and playing video games - I always find inspiration in strategy and creativity.
           </p>
         </div>
