@@ -32,7 +32,7 @@ export default function Navbar () {
           <ul className="flex items-center gap-6">
             <li><Link to="/" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">About</Link></li>
             <li><Link to="/skills" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Skills</Link></li>
-            <li><Link to="/projects" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Work</Link></li>
+            <li><Link to="/projects" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Projects</Link></li>
             <li><Link to="/contact" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Contact</Link></li>
           </ul>
         </div>
@@ -105,7 +105,7 @@ export default function Navbar () {
               onClick={() => setMenuOpen(false)}
               className="text-(--color-sec-text) hover:text-(--color-primary) text-[18px] font-medium transition-colors duration-200"
             >
-              Work
+              Projects
             </Link>
           </li>
           <li>
