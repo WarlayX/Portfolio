@@ -4,6 +4,7 @@ import VatCalculator from "../../assets/images/vat-calculator.png";
 import Foodify from "../../assets/images/foodify-network.png";
 import Stride from "../../assets/images/stride-shoe-collection.png";
 import Neo from "../../assets/images/neo-mobility.png";
+import Designs from '../../../public/Graphic-Designs.pdf';
 
 const projects = [
   {
@@ -126,6 +127,18 @@ export default function Projects() {
               </>
             )}
           </button>
+        </div>
+        
+        <div className="mt-5 flex justify-center">
+          <a
+            href={Designs}
+            download="Designs.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='flex items-center gap-2 bg-(--color-primary) text-(--color-base) px-6 py-2.5 cursor-pointer rounded-[5px] hover:opacity-80 transition-opacity duration-200'>
+            Download Designs
+            <i className="fa-solid fa-download text-[18px]" />
+          </a>
         </div>
 
       </div>
