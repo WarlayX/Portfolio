@@ -55,7 +55,7 @@ export default function Projects() {
   const visibleProjects = getVisibleProjects();
 
   return (
-    <section className="pt-5 py-16">
+    <section className="pt-5">
       <div className="max-w-325 mx-auto px-2.5 md:px-8">
 
         <h2 className="text-[20px] sm:text-[30px] font-bold text-(--color-primary) mb-10 tracking-tight">
