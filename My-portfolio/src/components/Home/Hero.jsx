@@ -1,3 +1,4 @@
+import 'boxicons/css/boxicons.min.css';
 import HeroImg from '../../assets/profilesetup.png';
 import Resume from '../../../public/Adewole-Resume.pdf';
 
@@ -30,8 +31,9 @@ export default function Hero () {
               download="Adewole-Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
-              className='bg-transparent text-(--color-primary) px-6 py-2.5 cursor-pointer rounded-[5px] border border-(--color-primary) hover:bg-(--color-primary) hover:text-(--color-base) transition-colors duration-200 ml-4'>             
+              className='flex items-center gap-2 bg-transparent text-(--color-primary) px-6 py-2.5 cursor-pointer rounded-[5px] border border-(--color-primary) hover:bg-(--color-primary) hover:text-(--color-base) transition-colors duration-200 ml-4'>             
               Download Resume 
+              <i className="bx bx-file-blank text-[18px]" />
             </a>
           </div>
         </div>

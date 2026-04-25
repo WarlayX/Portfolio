@@ -58,9 +58,12 @@ export default function Projects() {
     <section className="pt-5">
       <div className="max-w-325 mx-auto px-2.5 md:px-8">
 
-        <h2 className="text-[20px] sm:text-[30px] font-bold text-(--color-primary) mb-10 tracking-tight">
-          PROJECTS
-        </h2>
+        <div className="flex items-center gap-2 mb-10">
+          <i className="bx bx-grid-alt text-[20px] sm:text-[30px] font-bold text-(--color-primary)"></i>
+          <h2 className="text-[20px] sm:text-[30px] font-bold text-(--color-primary) tracking-tight">
+            PROJECTS
+          </h2>
+        </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {visibleProjects.map((project, index) => (

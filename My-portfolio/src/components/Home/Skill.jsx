@@ -25,9 +25,12 @@ export default function Skill() {
     <section className="pt-5 py-10 overflow-hidden">
       <div className="max-w-325 mx-auto px-4">
 
-        <h2 className="text-[20px] text-(--color-primary) mb-10 tracking-tight sm:text-[30px] font-bold">
-          STACK
-        </h2>
+        <div className="flex items-center gap-2 mb-10">
+          <i className="bx bx-code-alt text-(--color-primary) text-[20px] sm:text-[30px]"></i>
+          <h2 className="text-[20px] text-(--color-primary) tracking-tight sm:text-[30px] font-bold">
+            STACK
+          </h2>
+        </div>
 
         {/* Track wrapper */}
         <div className="relative overflow-hidden">
