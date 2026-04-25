@@ -14,11 +14,11 @@ export default function Contact() {
       label: "GitHub", 
       href: "https://github.com/WarlayX" 
     },
-    { icon: "bx bxl-twitter", 
+    { icon: "fa-brands fa-x-twitter", 
       label: "Twitter", 
       href: "https://x.com/Warlay_X?t=2qckFuDsWqVO9M0Y0GjXsA&s=09" 
     },
-    { icon: "bx bxl-whatsapp", 
+    { icon: "bx bxl-whatsapp",
       label: "WhatsApp", 
       href: "https://wa.me/+2348029822140" 
     },
