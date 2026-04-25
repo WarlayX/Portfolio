@@ -74,6 +74,19 @@
   background-image: linear-gradient(rgba(186,204,176,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(186,204,176,0.12) 1px, transparent 1px);
 }
 
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 18s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
 body {
   background-image: linear-gradient(rgba(30,58,95,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(30,58,95,0.12) 1px, transparent 1px);
 }
