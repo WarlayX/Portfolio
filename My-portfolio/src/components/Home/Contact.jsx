@@ -25,7 +25,7 @@ export default function Contact() {
   ];
 
   return (
-    <section>
+    <section id='contact'>
       <div className="h-120 flex flex-col items-center justify-center self-start sm:h-90">
         <div className="text-center">
           <h3 className="text-[50px] font-light leading-15 xl:font-extralight">

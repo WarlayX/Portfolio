@@ -39,6 +39,9 @@
   a {
     font-family: var(--font-space);
   }
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 :root {

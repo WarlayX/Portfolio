@@ -55,7 +55,7 @@ export default function Projects() {
   const visibleProjects = getVisibleProjects();
 
   return (
-    <section className="pt-5">
+    <section id="projects" className="pt-5">
       <div className="max-w-325 mx-auto px-2.5 md:px-8">
 
         <div className="flex items-center gap-2 mb-10">

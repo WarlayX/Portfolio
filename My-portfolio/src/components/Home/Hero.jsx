@@ -4,7 +4,7 @@ import Resume from '../../../public/Adewole-Resume.pdf';
 
 export default function Hero () {
   return(
-    <section className='pt-5'>
+    <section id='about' className='pt-5'>
       <div className='flex flex-col gap-6 sm:flex-row sm:max-w-325 sm:mx-auto sm:h-110 sm:items-center lg:h-150 '>     
         <div className='sm:w-[30%] sm:self-start'>
           <img 

@@ -30,10 +30,10 @@ export default function Navbar () {
         {/* Desktop links */}
         <div className="hidden md:block">
           <ul className="flex items-center gap-6">
-            <li><Link to="/" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">About</Link></li>
-            <li><Link to="/skills" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Skills</Link></li>
-            <li><Link to="/projects" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Projects</Link></li>
-            <li><Link to="/contact" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Contact</Link></li>
+            <li><a href="#about" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">About</a></li>
+            <li><a href="#skill" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Skills</a></li>
+            <li><a href="#projects" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Projects</a></li>
+            <li><a href="#contact" className="text-(--color-sec-text) hover:text-(--color-primary) transition-colors duration-200">Contact</a></li>
           </ul>
         </div>
 
@@ -82,40 +82,40 @@ export default function Navbar () {
         {/* Sidebar links */}
         <ul className="flex flex-col gap-8">
           <li>
-            <Link
-              to="/"
+            <a
+              href="#about"
               onClick={() => setMenuOpen(false)}
               className="text-(--color-sec-text) hover:text-(--color-primary) text-[18px] font-medium transition-colors duration-200"
             >
               About
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="/skills"
+            <a
+              href="#skill"
               onClick={() => setMenuOpen(false)}
               className="text-(--color-sec-text) hover:text-(--color-primary) text-[18px] font-medium transition-colors duration-200"
             >
               Skills
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="/projects"
+            <a
+              href="#projects"
               onClick={() => setMenuOpen(false)}
               className="text-(--color-sec-text) hover:text-(--color-primary) text-[18px] font-medium transition-colors duration-200"
             >
               Projects
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
-              to="/contact"
+            <a
+              href="#contact"
               onClick={() => setMenuOpen(false)}
               className="text-(--color-sec-text) hover:text-(--color-primary) text-[18px] font-medium transition-colors duration-200"
             >
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

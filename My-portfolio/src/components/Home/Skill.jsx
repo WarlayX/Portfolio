@@ -22,7 +22,7 @@ const skills = [
 
 export default function Skill() {
   return (
-    <section className="pt-5 py-10 overflow-hidden">
+    <section id="skill" className="pt-5 py-10 overflow-hidden">
       <div className="max-w-325 mx-auto px-4">
 
         <div className="flex items-center gap-2 mb-10">
