@@ -112,3 +112,15 @@ body {
 .animate-rotate-twice {
   animation: rotate-twice 2.5s ease-in-out infinite;
 }
+@keyframes bounce-rotate {
+  0%    { transform: translateY(0) rotate(0deg); }
+  20%   { transform: translateY(-20px) rotate(0deg); }
+  40%   { transform: translateY(0) rotate(0deg); }
+  60%   { transform: translateY(-20px) rotate(360deg); }
+  80%   { transform: translateY(0) rotate(360deg); }
+  100%  { transform: translateY(0) rotate(360deg); }
+}
+
+.animate-bounce-rotate {
+  animation: bounce-rotate 3s ease-in-out infinite;
+}
