@@ -44,6 +44,13 @@ const projects = [
   }
 ];
 
+const services = [
+  "Logo Design", "Business Cards", "Letterheads", "Company Profiles",
+  "Flyers", "Posters", "Brochures", "Banners", "ID Cards",
+  "Stickers & Labels", "Social Media Designs", "Marketing & Advertising",
+  "Packaging Designs", "Certificates", "Invitations"
+];
+
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
 
@@ -127,6 +134,27 @@ export default function Projects() {
               </>
             )}
           </button>
+        </div>
+
+        {/* Services */}
+        <div className="max-w-5xl mx-auto mt-14 mb-10 px-2.5 md:px-8">
+          <h2 className="text-[20px] font-bold text-(--color-primary) mb-8 tracking-tight">
+            <i className="bx bxs-paint text-(--color-primary) text-[20px] sm:text-[30px] animate-paint" />
+            DESIGN SERVICES
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="group flex items-center gap-2 border border-(--color-ter-bg) rounded-lg px-4 py-3 cursor-default hover:border-(--color-primary) transition-all duration-300 hover:translate-x-1"
+              >
+                <i className="bx bx-chevron-right text-(--color-primary) text-[16px] group-hover:translate-x-1 transition-transform duration-300" />
+                <span className="text-[13px] text-(--color-sec-text) group-hover:text-(--color-pri-text) transition-colors duration-300">
+                  {service}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
         
         <div className="mt-5 flex justify-center">
