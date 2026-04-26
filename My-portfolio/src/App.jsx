@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ScrollToTop from './components/ScrollToTop';
 import MainLayout from './layouts/Mainlayout';
-import Home from './pages/Home';
+import Home from './Pages/Home';
 
 export default function App() {
   useEffect(() => {
