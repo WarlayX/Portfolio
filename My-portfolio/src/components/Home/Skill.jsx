@@ -26,7 +26,7 @@ export default function Skill() {
       <div className="max-w-325 mx-auto px-4">
 
         <div className="flex items-center gap-2 mb-10">
-          <i className="bx bx-code-alt text-(--color-primary) text-[20px] sm:text-[30px]"></i>
+          <i className="bx bx-code-alt text-(--color-primary) text-[20px] sm:text-[30px] animate-rotate-twice"></i>
           <h2 className="text-[20px] text-(--color-primary) tracking-tight font-bold">
             STACK
           </h2>

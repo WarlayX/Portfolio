@@ -102,3 +102,13 @@ body {
 .animate-bounce-slow {
   animation: bounce-slow 3s ease-in-out infinite;
 }
+
+@keyframes rotate-twice {
+  0%    { transform: rotate(0deg); }
+  60%   { transform: rotate(360deg); }
+  100%  { transform: rotate(360deg); }
+}
+
+.animate-rotate-twice {
+  animation: rotate-twice 2.5s ease-in-out infinite;
+}
