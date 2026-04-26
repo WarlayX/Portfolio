@@ -3,9 +3,9 @@ export default function About () {
     <section className='pt-5'>
       <div className='flex flex-col gap-6 p-2.5 sm:flex-row sm:max-w-325 sm:mx-auto sm:items-center sm:h-85 lg:h-90'>
 
-        <div className='sm:w-[25%] flex items-center gap-2 sm:justify-center sm:self-start'>
+        <div className='sm:w-[25%] flex items-center gap-2 sm:justify-center sm:self-start' data-aos="fade-right" data-aos-duration="800">
           <i className="fa-regular fa-user text-(--color-primary) text-[20px] sm:text-[30px]" aria-hidden="true"></i>
-          <h2 className='text-(--color-primary) text-[20px] font-bold sm:text-[30px]'>
+          <h2  className='text-(--color-primary) text-[20px] font-bold sm:text-[30px]'>
             ABOUT
           </h2>
         </div>
