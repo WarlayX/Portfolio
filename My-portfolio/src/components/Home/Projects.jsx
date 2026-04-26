@@ -4,7 +4,6 @@ import VatCalculator from "../../assets/images/vat-calculator.png";
 import Foodify from "../../assets/images/foodify-network.png";
 import Stride from "../../assets/images/stride-shoe-collection.png";
 import Neo from "../../assets/images/neo-mobility.png";
-import Designs from '../../../public/Graphic-Designs.pdf';
 
 const projects = [
   {
@@ -159,7 +158,7 @@ export default function Projects() {
         
         <div className="mt-5 flex justify-center">
           <a
-            href={Designs}
+            href="/Graphic-Designs.pdf"
             download="Designs.pdf"
             target="_blank"
             rel="noopener noreferrer"

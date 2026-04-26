@@ -1,5 +1,3 @@
-import Logo from '../../public/logo.png';
-
 export default function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center gap-6 p-5 border-t ">
@@ -8,7 +6,7 @@ export default function Footer() {
         writing codes, creating designs. quick study.
       </p>
 
-      <img src={Logo} alt="logo" className="w-10 h-10 object-cover animate-float" />
+      <img src="/Logo.png" alt="logo" className="w-10 h-10 object-cover animate-float" />
 
       <p className="text-[12px] text-(--color-sec-text)">
         © {new Date().getFullYear()} Adewole Odutayo. All rights reserved.

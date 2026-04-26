@@ -97,7 +97,7 @@ useEffect(() => {
             </button>
 
             <a 
-              href={Resume} 
+              href="/Adewole-Resume.pdf" 
               download="Adewole-Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
