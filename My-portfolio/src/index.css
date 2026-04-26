@@ -93,3 +93,12 @@
 body {
   background-image: linear-gradient(rgba(30,58,95,0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(30,58,95,0.12) 1px, transparent 1px);
 }
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-25px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
