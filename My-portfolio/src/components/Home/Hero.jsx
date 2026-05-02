@@ -91,10 +91,13 @@ useEffect(() => {
           <p className='text-[12px] sm:text-[15px] lg:text-[20px]'>Frontend Developer and Graphic Designer focused on building responsive, user-friendly web applications with React, while crafting visually engaging designs that enhance user experience.</p>
 
           <div className='flex'>
-            <button 
+            <a 
+              href="https://www.upwork.com/freelancers/~011ac155feaf70d607" 
+              target="_blank"
+              rel="noopener noreferrer"
               className='bg-(--color-primary) text-(--color-base) px-6 py-2 cursor-pointer rounded-[5px] border hover:bg-transparent hover:text-(--color-primary) transition-colors duration-200 text-[12px] sm:text-[15px]'>
               Hire Me
-            </button>
+            </a>
 
             <a 
               href="/Adewole-Resume.pdf" 
