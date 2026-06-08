@@ -158,8 +158,8 @@ export default function Projects() {
         
         <div className="mt-5 flex justify-center">
           <a
-            href="/ADEWOLE-DESIGNS.pdf"
-            download="Designs.pdf"
+            href="/ADEWOLE-ODUTAYO-GRAPHIC-DESIGN-PORTFOLIO.pdf"
+            download="Adewole Odutayo Design Portfolio.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className='flex items-center gap-2 bg-(--color-primary) text-(--color-base) px-6 py-2.5 cursor-pointer rounded-[5px] hover:opacity-80 transition-opacity duration-200'>
