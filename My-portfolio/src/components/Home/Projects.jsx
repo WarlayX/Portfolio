@@ -158,7 +158,7 @@ export default function Projects() {
         
         <div className="mt-5 flex justify-center">
           <a
-            href="/Graphic-Designs.pdf"
+            href="/ADEWOLE-DESIGNS.pdf"
             download="Designs.pdf"
             target="_blank"
             rel="noopener noreferrer"
