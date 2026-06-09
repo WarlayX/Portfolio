@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import ScrollToTop from './components/ScrollToTop';
 import MainLayout from './layouts/Mainlayout';
 import Home from './Pages/Home';
+import Designs from './Pages/Designs';
 
 export default function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ export default function App() {
       <MainLayout >
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/designs" element={<Designs />} />
         </Routes>
       </MainLayout >
     </BrowserRouter>
