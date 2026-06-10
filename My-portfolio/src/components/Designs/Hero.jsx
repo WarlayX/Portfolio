@@ -90,7 +90,7 @@ export default function DesignsHero() {
             </span>
           </h1>
 
-          <p className="text-[12px] sm:text-[15px] lg:text-[20px] text-(--color-pri-text)">
+          <p className="text-[12px] sm:text-[15px] lg:text-[20px] text-(--color-pri-text) leading-loose tracking-wide">
             I'm a Graphic Designer with experience helping businesses build clean, modern, and professional brand identities and marketing visuals.
           </p>
 
