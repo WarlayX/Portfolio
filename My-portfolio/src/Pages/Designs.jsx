@@ -1,9 +1,9 @@
+import DesignsAbout from "../components/Designs/About";
+
 export default function Designs() {
   return (
-    <section>
-      <div>
-        
-      </div>
-    </section>
+    <div>
+      <DesignsAbout />
+    </div>
   )
 }
