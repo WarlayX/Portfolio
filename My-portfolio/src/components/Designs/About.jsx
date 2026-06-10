@@ -29,7 +29,7 @@ export default function DesignsAbout() {
           {/* Right — Text + Specializations */}
           <div className="sm:w-[75%] flex flex-col gap-8">
 
-            <p className="text-[13px] sm:text-[15px] lg:text-[18px] text-(--color-sec-text) leading-relaxed" data-aos="fade-left" data-aos-duration="800">
+            <p className="text-[13px] text-(--color-pri-text) sm:text-[15px] lg:text-[18px] leading-relaxed" data-aos="fade-left" data-aos-duration="800">
               My name is Adewole Odutayo, and I'm a graphic designer who enjoys turning ideas into creative and meaningful visuals. I specialize in logo design, branding, flyers, banners, and other marketing materials that help businesses present themselves with confidence. I love combining creativity with thoughtful design to create work that is clean, engaging, and effective. Whether I'm building a brand identity or designing promotional materials, my goal is to create visuals that connect with people and leave a lasting impression.
             </p>
 
